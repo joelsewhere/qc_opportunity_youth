@@ -1,0 +1,2 @@
+-- Copy the csv contents of the IL geographic crosswalk data into the table
+COPY il_geo_xwalk FROM STDIN WITH (FORMAT CSV);

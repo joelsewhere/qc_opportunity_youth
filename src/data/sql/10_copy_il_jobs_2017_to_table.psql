@@ -1,0 +1,2 @@
+-- Copy the csv contents of the 2017 IL jobs data into the table
+COPY il_jobs_2017 FROM STDIN WITH (FORMAT CSV);
